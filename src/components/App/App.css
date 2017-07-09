@@ -1,0 +1,8 @@
+* {
+  /*outline: solid red;*/
+}
+
+html, body, #root, #main-container {
+  /*border: solid green;*/
+  height: 100%;
+}

@@ -1,54 +1,96 @@
-* {
-  /*outline: solid red;*/
-}
-
 .navbar {
-  /*outline: solid red;*/
-  background-color: #f9f9f9;
-  height: 150px;
+  /*outline: solid pink;*/
+  background-color: #f5f5f5;
+  height: 140px;
+  border-bottom: solid #f97d1b 5px;
+  margin-bottom: 0;
 }
 
 .container {
   /*outline: solid green;*/
-  height: 150px;
+  height: 140px;
 }
 
 .navbar-header {
   /*outline: solid blue;*/
-  height: 150px;
+  /*margin-right: 0;*/
+  height: 100%;
+}
+
+.navbar-brand {
+  /*outline: solid gray;*/
+  height: 100%;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar button {
-  margin-top: 85px;
-  margin-right: 50px;
+  margin-top: 75px;
+  border: none;
 }
 
-.navbar img {
-  /*outline: solid red;*/
-  width: 120px;
+.navbar-brand img {
+
+  /*outline: solid orange;*/
+  /*width: 350px;
+  margin: 0;
+  padding: 0;*/
 }
 
 .nav {
-  margin-top: 85px;
-  margin-left: 50px;
+  /*outline: solid yellow;*/
+  margin: 68px 0;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.dropdown-menu {
-  margin-left: -10px;
-  border-radius: 20px;
+.navbar-nav > li > .dropdown-menu {
+  margin-right: -18px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.navbar-toggle {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #222;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  width: 35px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #222;
+}
+
+@media (max-width: 991px) {
+  .nav {
+    font-size: 1em;
+  }
+
+  .navbar img {
+    height: 95px;
+  }
 }
 
 @media (max-width: 767px) {
   .nav {
-    margin-top: 0;
-    margin-left: 0;
-    padding: 0 35px;
+    margin: 0;
     text-align: right;
   }
 
-  .dropdown-menu {
+  .navbar-nav > li > .dropdown-menu {
     text-align: right;
+    margin-right: 0;
+    color: #222;
+  }
+
+  .navbar img {
+    height: 75px;
   }
 }

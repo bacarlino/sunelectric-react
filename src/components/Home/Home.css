@@ -1,0 +1,37 @@
+#home {
+  /*border: solid blue;*/
+  height: 75%
+}
+ #home .row {
+   height: 50%;
+ }
+
+ #home h1 {
+   text-align: center;
+   font-weight: bold;
+   margin: 0;
+   padding: 20px;
+   background-color: #f97d1b
+ }
+
+.home-bg {
+  /*border: solid skyblue;*/
+  float: none;
+  text-align: center;
+  font-weight: bold;
+  height: 100%;
+  min-height: 200px;
+  /*max-height: 424px;*/
+  background: url("../../images/indyskylinethin.jpg") center top no-repeat;
+}
+
+.home-bg > img {
+  /*background: url("../../images/indyskylinethin.jpg") center top  no-repeat;*/
+}
+
+
+@media (max-width: 767px) {
+  .home-bg {
+    background: url("../../images/indyskylinethin.jpg") center top / auto 100% no-repeat;
+  }
+}
