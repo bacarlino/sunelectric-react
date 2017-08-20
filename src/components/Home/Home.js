@@ -13,6 +13,18 @@ class Home extends Component {
             {/* <img src={indysky}></img> */}
           </div>
           <h1>Serving Indiana for 20 years.</h1>
+          Design-Build Services
+          New construction and remodeling
+          Fire alarm systems installation
+          Site lighting installation
+          Building maintenance
+          Interior lighting system installation
+          Voice/Data/Video installation
+          Nurse Call System installation
+          Door entry and keyless system installation
+          Energy conservation upgrades
+          Retrofitting existing lighting systems
+          Service calls
         </div>
       </div>
     );
